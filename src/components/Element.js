@@ -10,7 +10,7 @@ import MaterialUIPickers from "./YearMonthPicker";
 const Element = ({name, initialValue, onChange, placeholder, options, type}) => {
 
 
-    return <div className="element row">
+    return <div className="element">
         {
             (options.length > 0 &&
                 <SimpleSelect
